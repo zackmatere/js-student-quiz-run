@@ -11,6 +11,8 @@ body {
   border-right: 4px solid blue;
   border-top: 6px solid orange;
   border-bottom: 8px solid black;
+  padding: 6px;
+ margin: 20px;
 }
 }
 .header {
@@ -46,6 +48,8 @@ body {
   display: table;
   clear: both;
 }
-# line1 {
+#line1 {
   color: blue
 }
+
+  color: blue
