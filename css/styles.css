@@ -1,16 +1,16 @@
 
 body {
   margin: 0;
-    font-family: 'ABeeZee';font-size: 22px;
+ font-family: 'ABeeZee';font-size: 22px;
 
  background-color: rgb(255, 255, 128);
 }
 
 .box {
-  border-left: 2px solid red;
+  border-left: 2px solid blue;
   border-right: 4px solid blue;
-  border-top: 6px solid orange;
-  border-bottom: 8px solid black;
+  border-top: 6px solid blue;
+  border-bottom: 8px solid blue;
   padding: 6px;
  margin: 20px;
 }
@@ -51,5 +51,3 @@ body {
 #line1 {
   color: blue
 }
-
-  color: blue
