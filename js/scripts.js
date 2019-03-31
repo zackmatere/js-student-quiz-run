@@ -29,6 +29,11 @@ $(document).ready(function(){
          if (answerThree === answers[2]) {
     score += pointPerCorrect;
   }
+  $('#button').button();
+
+$('#button').click(function() {
+    $(this).button('loading');
+});
 
 
         $("input[type=radio][name=questionOneChoice]:checked").prop('checked', false);
