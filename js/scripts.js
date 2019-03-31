@@ -1,7 +1,8 @@
+//// business logic
 var answers = ["infinity","firstName","vowels"];
 var pointPerCorrect = 25;
 
-
+//  UI logic
 function percentage(score) {
 return "Your score is " + parseInt((score / 75) * 100) + "%";
 }
