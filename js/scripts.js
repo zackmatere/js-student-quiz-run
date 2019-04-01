@@ -21,6 +21,25 @@ var myQuestions = [
         correctAnswer: 'c'
     }
 ];
+{
+    question: "Whatwhat is an array ? is html",
+    answers: {
+        a: 'high text markup laguagea list of elements',
+        b: 'hypertext markup languageA function',
+        c: 'none of thA cascade< above'
+    },
+    correctAnswer: 'b'
+},
+{
+    question: "What is What is DOM? the meaning of CSS?",
+    answers: {
+        a: 'cascading style languagack-end logi',
+        b: 'case sensitive section',
+        c: 'cascading stylesheet'
+    },
+    correctAnswer: 'c'
+}
+];
 
 var quizContainer = document.getElementById('quiz');
 var resultsContainer = document.getElementById('results');
