@@ -10,44 +10,36 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
     <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
   </head>
-      <body>
-        <div class="container">
-          <div class="box">
-          <div class="row">
-              <div class="col-md-12">
-              <nav class="w3-bar w3-black">
-                <button type="button" class="btn btn-primary">home</button>
-                <button type="button" class="btn btn-secondary">cources</button>
-                <button type="button" class="btn btn-success">javascript</button>
-              </nav>
-              </header>
-                    </div>
-                  </div>
-                  <div class="jumbotron">
-
-                  <h1 class="display-4"><strong>JS STUDENTS QUIZ RUN<strong></h1>
-                  <img src="quiz.jpg" alt="">
-                </div>
-o                   <p class="lead"><strong>This is a quick dash Quiz for use by both teachers. Do  you know your javascrip? <strong> </p>
-                  </div>
-              </div>
-            </div>
-            <div class="well">
-              <form id="details">
-                <h2>PERSONAL DETAILS</h2>
-        <div class="section">
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="w3-bar w3-black">
+              <button type="button" class="btn btn-primary">home</button>
+              <button type="button" class="btn btn-secondary">cources</button>
+              <button type="button" class="btn btn-success">javascript</button>
+            </nav>
+          </div>
+        </div>
+      <div class="jumbotron">
+        <h1 class="display-4"><strong>JS STUDENTS QUIZ RUN<strong></h1>
+          <img src="quiz.jpg" alt="">
+      </div>
+        <p class="lead"><strong>This is a quick dash Quiz for use by both teachers. Do  you know your javascrip? <strong> </p>
+      </div>
+      <div class="well">
+        <form id="details">
+          <h2>PERSONAL DETAILS</h2>
+          <div class="section">
           <div class="form-group"> <label for="STUDENT FULL NAME">STUDENT FULL NAME</label><input id="first-name" class="form-control" type="text"></div><br><br>
 
           <div class="form-group"> <label for="admission">STUDENT NUMBER</label><input id="admission" class="form-control" type="text"></div>
 
           <a class="btn btn-primary" href="#" role="button">Link</a>
           <button class="btn btn-primary" type="submit">SUBMIT</button>
-
-
-
-            </div>
           </div>
-          </div>
+        </div>
           <br>
             <div class="panel panel-info">
               <div class="panel-heading">
@@ -60,24 +52,57 @@ o                   <p class="lead"><strong>This is a quick dash Quiz for use by
               ​<div class="row">
 
             </div>
-            <p>3. What is the correct place to insert bootstrap?</p>
-            <div class="question3">
-              <input type="radio" name="que3" value="0">In the body section.<br>
-            </div>
+            <h1>QUIZ BOARD</h1>
+        </div>
+        <br>
+        <h2><em>Answer all the questions correctly.</em></h2>
 
-              <input type="radio" name="que3" value="5">In the head section.<br>
-              <input type="radio" name="que3" value="0">After closing the body section.<br>
-            </div>
-          </div>
-          </div>
+        <div class="well">
+            <form id="Quiz" action="index.html" method="POST" name="Quiz">
+                <p><strong> 1. Which of the following type of variable takes precedence over other if names are
+                        same?</strong></p>
+                <br>
+                <input type="radio" name="questionOne" id="mc" value="wrong">global variable<br>
+                <input type="radio" name="questionOne" id="mc" value="correct">local variable<br>
+                <input type="radio" name="questionOne" id="mc" value="wrong">none of the above<br>
+        </div>
+        <div class="well">
+            <p><strong> 2. Which built-in method returns the calling string value converted to lower case?</strong></p>
             <br>
-            <p>4. What the difference between == and === in Javascript?</p>
-            <div class="question4">
-              <input type="radio" name="que4" value="15">== checks if the values are equal or not equal.<br>
-              ===checks if both data types and value are correct.<br><br>
-              <input type="radio" name="que4" value="0">===checks if the values are equal or not equal.<br>
-              ==checks if both data types and value are correct.<br><br>
-              <input type="radio" name="que4" value="0">Does not apply in javascript.
+            <input type="radio" name="questionTwo" id="mc" value="wrong">changeCase()<br>
+            <input type="radio" name="questionTwo" id="mc" value="wrong">toLower()<br>
+            <input type="radio" name="questionTwo" id="mc" value="correct">toLowerCase()<br>
+        </div>
+        <div class="well">
+            <p><strong> 3. Which of the following function of Array object extracts a section of an array and
+                    returns a new array?</strong></p>
+            <br>
+            <input type="radio" name="questionThree" id="mc" value="correct">slice()<br>
+            <input type="radio" name="questionThree" id="mc" value="wrong">reverse()<br>
+            <input type="radio" name="questionThree" id="mc" value="wrong">shift()<br>
+        </div>
+        <div class="well">
+
+            <p><strong> 4. Which of the following function of string object combines the text of two strings and
+                    returns a new string?</strong></p>
+            <br>
+            <input type="radio" name="questionFour" id="mc" value="wrong">merge()<br>
+            <input type="radio" name="questionFour" id="mc" value="correct">concat()<br>
+            <input type="radio" name="questionFour" id="mc" value="wrong">add()<br>
+        </div>
+
+        <div class="well">
+            <p><strong> 5. Which of the following function of string object executes the search for a match between
+                    a regular expression and a specified string?</strong></p>
+            <br>
+            <input type="radio" name="questionFive" id="mc" value="wrong">replace()<br>
+            <input type="radio" name="questionFive" id="mc" value="wrong">match()<br>
+            <input type="radio" name="questionFive" id="mc" value="correct">search()<br>
+        </div>
+    </div>
+    <input type="button" name="results" value="SUBMIT" id="button" class="btn btn-danger" onClick="check();">
+    </form>
+
             </div>
           </br>
             <div class="row">
