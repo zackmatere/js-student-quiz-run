@@ -5,9 +5,9 @@ function check() {
     var questionTwo = document.Quiz.questionTwo.value;
     var questionThree = document.Quiz.questionThree.value;
     var questionFour = document.Quiz.questionFour.value;
-    var questionFive = document.Quiz.questionFive.value;
-    var right = 0;
 
+    var right = 0;
+/// user logic
 
     if (questionOne == "correct") {
         right = right + 20;
@@ -20,10 +20,7 @@ function check() {
     };
     if (questionFour == "correct") {
         right = right + 20;
-    };
-    if (questionFive == "correct") {
-        right = right + 20;
-    };
+  };
 
 
 
