@@ -22,20 +22,20 @@ var myQuestions = [
     }
 ];
 {
-    question: "Whatwhat is an array ? is html",
+    question: "what is an array ? ",
     answers: {
-        a: 'high text markup laguagea list of elements',
-        b: 'hypertext markup languageA function',
-        c: 'none of thA cascade< above'
+        a: ' list of elements',
+        b: 'A function',
+        c: 'A cascade'
     },
-    correctAnswer: 'b'
+    correctAnswer: 'a'
 },
 {
-    question: "What is What is DOM? the meaning of CSS?",
+    question: "What is What is DOM?",
     answers: {
-        a: 'cascading style languagack-end logi',
-        b: 'case sensitive section',
-        c: 'cascading stylesheet'
+        a: 'back-end logic',
+        b: 'front end logic',
+        c: 'short code '
     },
     correctAnswer: 'c'
 }
